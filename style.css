@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap");
+
+* {
+  
+  color: white;
+  background-color: black;
+  font-family: "Ubuntu", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* all similar content styling codes */
+section{
+  padding: 100px 0;
+}
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.about, .services, .skills, .teams, .contact, footer{
+  font-family: 'Poppins', sans-serif;
+}
+.about .about-content,
+.services .serv-content,
+.skills .skills-content,
+.contact .contact-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+section .title{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+section .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  /* background: #111; */
+  transform: translateX(-50%);
+}
+section .title::after{
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+.bannerBgImage {
+  height: 100vh;
+  background: url("/correct1.jpg");
+  background-size: cover;
+  position: relative;
+}
+.bannerText {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: transparent !important;
+}
+.bannerTitle {
+  font-size: 4rem;
+}
+.bannerDesc {
+  font-size: 2rem;
+  background-color: transparent !important;
+}
+.card {
+  cursor: pointer;
+}
+.card:hover {
+  background-color: palevioletred;
+  border: 2px solid yellowgreen;
+}
+.bIcon {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+.img-fluid {
+  border: 2px solid yellowgreen;
+}
+.card-img-top card-img {
+  height: 50vh;
+}
+h5 {
+  color: white;
+  /* background-color: black; */
+  font-weight: bold;
+}
+.bannerTitle {
+  background-color: transparent !important;
+}
+.name1 
+{
+  font-weight: bold;
+  font-size: 75px;
+  
+}
+.button
+{
+  width: 10%;
+  height: 18%;
+  font-size: 30px;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+.about{
+  display: flex;
+}
+.about .title::after{
+  content: "who i am";
+}
+.about .about-content .left{
+  width: 45%;
+}
+.about .about-content .left img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.about .about-content .right{
+  width: 55%;
+}
+.about .about-content .right .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+  color: crimson;
+}
+.about .about-content .right p{
+  text-align: justify;
+}
+.about .about-content .right a{
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+  color: crimson;
+  background: none;
+}
+.sar
+{
+  display: flex;
+}
+.navbar navbar-expand-lg navbar-dark bg-transparent fixed-top fixed-top
+{
+  background-color: transparent !important;
+}
