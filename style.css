@@ -77,7 +77,7 @@ section .title::after{
 }
 .bannerBgImage {
   height: 100vh;
-  background: url("/correct1.jpg");
+  background: url("./correct1.jpg");
   background-size: cover;
   position: relative;
 }
